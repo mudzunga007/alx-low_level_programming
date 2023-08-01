@@ -6,8 +6,8 @@
 
 /**
 * struct listint_s - singly linked list
-* @q: is integer
-* @next: will points to the next node
+* @q: is an integer
+* @next: will point to the next node
 * Description: singly linked list node structure
 */
 typedef struct listint_s
