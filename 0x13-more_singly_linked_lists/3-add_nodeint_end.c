@@ -15,13 +15,16 @@ new = malloc(sizeof(listint_t));
 if (!new)
 return (NULL);
 
-new->q = q;
+new->n = n;
+
 new->next = NULL;
 
 if (*head == NULL)
 {
+
 *head = new;
-return (new);
+return (
+new);
 }
 
 while (temp->next)
