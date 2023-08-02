@@ -15,7 +15,7 @@ int num;
 if (!head || !*head)
 return (0);
 
-num = (*head)->q;
+num = (*head)->n;
 temp = (*head)->next;
 free(*head);
 *head = temp;
