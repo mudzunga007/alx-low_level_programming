@@ -4,13 +4,9 @@
 
 /**
 *read_textfile- Will Read text file print to STDOUT.
-
 *@filename: The text file being read
-
 *@letters: The number of letters to be read
-
 *Return: The w- actual number of bytes read and printed
-
 *0 when function fails or filename is NULL.
 */
 
